@@ -1,15 +1,19 @@
 import {useState, React} from 'react'
- 
+import PropTypes from 'prop-types'
+import Card from './shared/Card'
 
 function FeedbackItem({item}) {
 
     return (
-        <div className="card">
+      <Card>
             <div className="num-display">{item.rating}</div>
             <div className="text-display">{item.text}</div>
-      </div>
+      </Card>
 
   )
+}
+FeedbackItem.propTypes = {
+    item: PropTypes.object
 }
 
 export default FeedbackItem
