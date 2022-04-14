@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState,  React } from "react"
 import Header from "./components/Header"
 import FeedbackItem from "./components/FeedbackItem"
 import FeedbackList from "./components/FeedbackList"
@@ -9,13 +9,13 @@ function App() {
     const [feedback, setFeedback] = useState(FeedbackData)
 
     return (
-        <>
-            <Header />
+        <div>
+        <Header/>
             <div className="container">
                 <FeedbackList feedback={feedback} />
 
             </div>
-        </>
+        </div>
     )
 }
 
