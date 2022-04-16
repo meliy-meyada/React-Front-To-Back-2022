@@ -2,8 +2,7 @@
   "name": "feedback-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
-  "homepage": "https://meliy-meyada.github.io/React-Front-To-Back-2022/",
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^13.0.0",
