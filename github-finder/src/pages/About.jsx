@@ -12,13 +12,13 @@ function About() {
       </p>
       <p className='text-lg text-gray-400'>
         Layout By:
-        <a className='text-white' href='https://twitter.com/hassibmoddasser'>
+        <a className='text-white'>
           Hassib Moddasser
         </a>
       </p>
       <p className='text-lg text-gray-400'>
         Udemy course By:
-        <a className='text-white' href='https://traversymedia.com'>
+        <a className='text-white'>
           Brad Traversy
         </a>
       </p>
