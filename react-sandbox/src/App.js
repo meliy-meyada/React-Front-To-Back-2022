@@ -1,9 +1,11 @@
-import UseCallbackExample from "./component/UseCallbackExample"
+import CustomHookExample1 from "./component/CustomHookExample1"
+
+
 
 function App() {
   return (
     <div className="container mt-5">
-      <UseCallbackExample />
+      <CustomHookExample1 />
           
     </div>
   )
