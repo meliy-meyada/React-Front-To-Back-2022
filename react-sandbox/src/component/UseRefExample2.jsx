@@ -4,7 +4,7 @@ function UseRefExample2() {
     const [name, setName] = useState()
 
     const renders = useRef(1)
-    const prevName = useRef('')
+    const prevName = useRef('') 
     
     
     useEffect(() => {
